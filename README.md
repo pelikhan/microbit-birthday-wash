@@ -1,15 +1,6 @@
 > Open this page at [https://pelikhan.github.io/microbit-birthday-wash/](https://pelikhan.github.io/microbit-birthday-wash/)
 
-## Use this extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/pelikhan/microbit-birthday-wash** and import
-
-## Edit this extension ![Build status badge](https://github.com/pelikhan/microbit-birthday-wash/workflows/MakeCode/badge.svg)
+## Edit this program ![Build status badge](https://github.com/pelikhan/microbit-birthday-wash/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
 
