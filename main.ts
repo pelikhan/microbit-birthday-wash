@@ -1,3 +1,12 @@
+function calibrate () {
+    ambient = input.lightLevel()
+    ambient = 0
+    for (let index = 0; index < 10; index++) {
+        ambient += input.lightLevel()
+    }
+    ambient = ambient / 10
+    ambient += -20
+}
 function countdown () {
     basic.showLeds(`
         # # # # #
@@ -19,15 +28,6 @@ function countdown () {
     music.setTempo(120)
     music.beginMelody(music.builtInMelody(Melodies.PowerUp), MelodyOptions.Once)
     basic.showIcon(IconNames.Happy)
-}
-function calibrate () {
-    ambient = input.lightLevel()
-    ambient = 0
-    for (let index = 0; index < 10; index++) {
-        ambient += input.lightLevel()
-    }
-    ambient = ambient / 10
-    ambient += -20
 }
 let ambient = 0
 calibrate()
