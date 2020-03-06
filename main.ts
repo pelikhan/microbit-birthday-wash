@@ -1,8 +1,10 @@
 function calibrate () {
     ambient = input.lightLevel()
+    basic.pause(200)
     ambient = 0
     for (let index = 0; index < 10; index++) {
         ambient += input.lightLevel()
+        basic.pause(200)
     }
     ambient = ambient / 10
     ambient += -20
